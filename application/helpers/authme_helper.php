@@ -16,7 +16,7 @@ function logged_in()
 	
 	return $CI->authme->logged_in();
 }
-function get_user_info() // i declared it in the helper so i can use this function,
+function get_user_info() // i declared it in the helper
 {
     $CI =& get_instance();
     $CI->load->library('authme');
